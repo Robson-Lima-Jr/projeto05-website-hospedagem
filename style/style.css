@@ -122,6 +122,57 @@ header nav ul li a {
     bottom: 50px;
 }
 
+/* link de preços na página principal */
+.preco-area {
+    background-color: var(--allDarkGray);
+    color: var(--allWhite);
+    padding: 20px 0px;
+    height: 100px;
+}
+
+.preco-area h3, .preco-area p {
+    width: 60%;
+}
+
+.preco-area h3 {
+    font-size: 22px;
+}
+
+.preco-area a {
+    position: absolute;
+    padding: 15px 20px 15px 40px;
+    right: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+
+    background-color: var(--allBlue);
+    color: var(--allWhite);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.preco-area img {
+    position: absolute;
+    width: 20px;
+    right: 200px;
+    top: 19px;
+}
+
+.preco-area2 {
+    background-color: var(--allBlue);
+}
+
+.preco-area2 a {
+    background-color: var(--allDarkGray);
+}
+
+.preco-area2 img {
+    top: 22px;
+}
+
 
 /* Tabela */
 table img {
