@@ -14,9 +14,11 @@
 <body>
     <header id="menu">
         <div class="container-base">
-                <img src="assets/logo-icone.png" alt="logo AlfaTech" title="AlfaTech">
-                <h1>AlfaTech</h1>
-                <p>Soluções em hospedagem</p>
+                <div class="logo-icon">
+                    <img src="assets/logo-icone.png" alt="logo AlfaTech" title="AlfaTech">
+                    <h1>AlfaTech</h1>
+                    <p class="blue-span">Soluções em hospedagem</p>
+                </div>
             <nav>
                 <ul>
                     <li><a href="index.html#info">INFORMAÇÕES</a></li>
@@ -51,20 +53,20 @@
 
     <section id="info">
         <div class="container-base">
-            <h3>Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?</h3>
+            <h3>Existem diversos serviços de hospedagem de sites. Porque você deve <span class="blue-span">nos escolher?</span></h3>
             <div class="info-detalhe">
                 <img src="assets/icone-engrenagens.png" alt="engrenagens">
                 <h4>Fácil de configurar</h4>
                 <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
             </div>
 
-            <div class="info-detalhe">
+            <div class="info-detalhe2">
                 <img src="assets/cloud-icone.png" alt="cloud">
                 <h4>Servidores 100% Online</h4>
                 <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
             </div>
 
-            <div class="info-detalhe">
+            <div class="info-detalhe3">
                 <img src="assets/icone-suporte.png" alt="atendimento">
                 <h4>Suporte 24/7</h4>
                 <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
@@ -76,7 +78,7 @@
         <div class="container-base">
             <h3>Pague <span class="blue-span">somente</span> pelo que for usar. Sem cobranças adicionais!</h3>
 
-            <table>
+            <table id="tableMain">
                 <thead>
                     <tr>
                         <th>
@@ -162,17 +164,19 @@
 
     <footer id="contato">
         <div class="container-base">
-            <div class="logo-container">
+            <div class="logo-icon">
                 <img src="assets/logo-icone.png" alt="logo AlfaTech" title="AlfaTech">
                 <h1>AlfaTech</h1>
-                <p>Soluções em hospedagem</p>
+                <p class="blue-span">Soluções em hospedagem</p>
             </div>
-            <p>Telefone & Whatsapp: (21) 99999-5555</p>
-            <p>E-mail: suporte@alfatech.com</p>
-            <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
-            <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-            <p>Desenvolvido por <span class="blue-span"><a href="https://github.com/Robson-Lima-Jr" target="_blank" rel="external">Robson Junior</a></span></p>
+            <div class="dadosContato">
+                <p>Telefone & Whatsapp: (21) 99999-5555</p>
+                <p>E-mail: suporte@alfatech.com</p>
+                <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
+                <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+            </div>
         </div>
+        <p class="author">Desenvolvido por <a href="https://github.com/Robson-Lima-Jr" target="_blank" rel="external"><span class="blue-span">Robson Junior</span></a></p>
     </footer>
 
 </body>
