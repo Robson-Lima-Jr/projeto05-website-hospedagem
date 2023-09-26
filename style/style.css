@@ -12,7 +12,7 @@
     --allBlue: #2f86d6;
 
     --priceBlue: rgba(47, 134, 214, 1);
-    --priceGray: #a8a4a4;
+    --priceGray: #d8d2d2;
 }
 
 * {
@@ -30,7 +30,7 @@
     margin: 0px auto;
 }
 
-.logo-icon img{
+.logo-icon img {
     position: absolute;
     width: 70px;
     top: 25px;
@@ -187,7 +187,9 @@ header nav ul li a {
     margin: 100px auto 390px auto;
 }
 
-#info .info-detalhe, #info .info-detalhe2, #info .info-detalhe3{
+#info .info-detalhe,
+#info .info-detalhe2,
+#info .info-detalhe3 {
     width: 33%;
     position: absolute;
 }
@@ -241,14 +243,23 @@ header nav ul li a {
     box-shadow: 1px 1px 35px 20px var(--allBlue);
 }
 
-#tableMain th, #tableMain td {
-    border: 1px solid var(--allWhite3);
+
+#planos #tableMain th,
+#tableMain td {
+    border: 2px solid var(--allWhite3);
     padding: 15px;
 }
 
 #planos #tableMain thead tr th {
     background-color: var(--allWhite);
 }
+
+#planos #tableMain thead tr th p {
+    color: var(--allGray);
+    font-weight: 500;
+    font-size: 13px;
+}
+
 
 #planos #tableMain tbody tr:nth-child(odd) {
     background-color: var(--allWhite3);
@@ -294,4 +305,78 @@ header nav ul li a {
 #contato .author a {
     text-decoration: none;
     font-weight: 700;
+}
+
+/* Pagina de preços */
+
+.blue-fundo {
+    background-color: var(--priceBlue);
+}
+
+.blue-fundo nav ul li a,
+.blue-fundo p {
+    color: var(--allWhite);
+}
+
+.white-span {
+    color: var(--allWhite);
+}
+
+#contato .authorPreco {
+    color: var(--allDarkGray);
+}
+
+#preco {
+    padding: 80px 0px;
+}
+
+#preco #precoTabela {
+    text-align: center;
+    margin: 0px auto;
+}
+
+#preco #precoTabela thead tr th {
+    background-color: var(--priceGray);
+    padding: 20px 0px;
+    border: 1px solid var(--allWhite);
+}
+
+#preco #precoTabela thead tr th p {
+    color: var(--allDarkGray);
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
+#preco #precoTabela tbody td:nth-child(1) {
+    text-align: justify;
+    width: 300px;
+    padding-left: 20px;
+    background-color: var(--priceGray);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#preco #precoTabela tbody td:nth-child(2),
+#preco #precoTabela tbody td:nth-child(3),
+#preco #precoTabela tbody td:nth-child(4),
+#preco #precoTabela tbody td:nth-child(5) {
+    width: 180px;
+    font-size: 15px;
+}
+
+#preco #precoTablea th,
+#preco #precoTabela td {
+    padding: 10px;
+    background-color: #ebdede;
+    border: 1px solid var(--allWhite);
+}
+
+
+#preco #precoTabela .circle {
+    background-color: var(--priceBlue);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
